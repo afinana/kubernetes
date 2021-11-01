@@ -1,0 +1,240 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/C/Development/Install TIG(Telegram, InfluxDB, Grafana).md",
+			"settings":
+			{
+				"buffer_size": 231,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "# Install TIG(Telegram, InfluxDB, Grafana)"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Development/kubernetes/eks-scripts/istio"
+	],
+	"file_history":
+	[
+		"/C/Development/kubernetes/demo-springboot/spring-cloud-kubernetes/istio/frontend-gateway.yaml",
+		"/C/Development/kubernetes/demo-springboot/spring-cloud-kubernetes/object-configurations/frontend-deployment.yaml",
+		"/C/Development/kubernetes/demo-springboot/spring-cloud-kubernetes/object-configurations/backend-deployment.yaml",
+		"/C/Program Files (x86)/Arduino/hardware/tools/avr/etc/avrdude.conf",
+		"/C/Program Files (x86)/Arduino/hardware/arduino/avr/firmwares/atmegaxxu2/README.txt",
+		"/C/Development/kubernetes/demo-springboot/spring-cloud-kubernetes/object-configurations/liveness-example-k8s-template.yaml",
+		"/C/Users/Antonio/Desktop/arduino_build_226612/sketch/DS18B20.ino.cpp",
+		"/C/Development/Linux/How to remove cloud init from ubuntu.md",
+		"/C/Development/AWS/robot-server-connect.md",
+		"/C/Users/Antonio/Documents/Atmel Studio/7.0/AVR_Gpio/AVR_Gpio/Makefile",
+		"/C/Users/Antonio/Documents/Atmel Studio/7.0/AVR_Gpio/AVR_Gpio/main.c",
+		"/C/Users/Antonio/Documents/Atmel Studio/7.0/AVR_Gpio/AVR_Gpio/doxygen.conf",
+		"/C/Users/Antonio/Documents/My Books/Manning/code/Chapter02/kubia/app.js",
+		"/C/Users/Antonio/source/repos/OpenDataLoader/app.js",
+		"/C/Users/Antonio/source/repos/EventsLoader/utils/db.js",
+		"/C/Users/Antonio/source/repos/EventsLoader/download.sh",
+		"/C/Users/Antonio/source/repos/EventsLoader/lib/batch.js",
+		"/C/Users/Antonio/source/repos/EventsLoader/lib/importer.js",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/C/Users/Antonio/Desktop/Prometheus-KIBANA.md",
+		"/C/Users/Antonio/Downloads/cronjob.yaml",
+		"/C/Development/minikube/demo-springboot/microservices-with-kubernetes-and-docker/account-custromer-ingress.yaml",
+		"/C/Development/minikube/demo-springboot/microservices-with-kubernetes-and-docker/minikube-start.md",
+		"/C/Users/Antonio/Desktop/Howto_Minikube.md",
+		"/C/Development/minikube/demo-springboot/microservices-with-kubernetes-and-docker/deployment-customer.yaml",
+		"/C/Development/minikube/demo-springboot/frontend-deployment.yaml",
+		"/C/Development/minikube/traefik/whoami.ingress.yaml",
+		"/C/Users/Antonio/Desktop/hosts",
+		"/C/Development/minikube/values.yml",
+		"/C/Development/eclipse-j2ee/eclipse/eclipse.ini",
+		"/C/Development/eclipse-j2ee/eclipse/eclipsec.exe"
+	],
+	"find":
+	{
+		"height": 24.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"middleland"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/Development/Install TIG(Telegram, InfluxDB, Grafana).md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 231,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								231,
+								43
+							]
+						],
+						"settings":
+						{
+							"auto_name": "# Install TIG(Telegram, InfluxDB, Grafana)",
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "istio-scripts.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 330.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

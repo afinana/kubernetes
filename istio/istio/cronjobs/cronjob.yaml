@@ -1,0 +1,20 @@
+apiVersion: batch/v1beta1
+kind: CronJob
+metadata:
+  name: hello
+spec:
+  schedule: "*/1 * * * *"
+  concurrencyPolicy: Replace
+  jobTemplate:
+    spec:
+      template:
+        spec:
+          containers:
+          - name: hello
+            image: busybox
+            args:
+            - /bin/sh
+            - -c
+#           - date; echo Hello from the Kubernetes cluster
+            - /bin/wget -qO- https://www.googleapis.com/books/v1/volumes?q=isbn:0486424618 
+          restartPolicy: OnFailure
