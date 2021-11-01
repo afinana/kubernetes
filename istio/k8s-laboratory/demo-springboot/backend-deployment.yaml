@@ -1,0 +1,46 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: demo-backend
+spec:
+  selector:
+    app: demo-backend
+    tier: backend
+  ports:
+  - protocol: TCP
+    port: 8080
+  type: ClusterIP
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: demo-backend
+spec:
+  selector:
+      matchLabels:
+        app: demo-backend
+        tier: backend
+  replicas: 1 
+  template:
+    metadata:
+      labels:
+        app: demo-backend
+        tier: backend
+    spec:
+      containers:
+        - name: demo-backend
+          image: middleland/demo-backend
+          imagePullPolicy: Always 
+          ports:
+            - containerPort: 8080
+          env:
+          - name: JVM_OPTS
+            value: "-Xms128M -Xmx256M"
+          resources:
+            requests:
+              cpu: 80m
+              memory: 256Mi
+            limits:
+              cpu: 100m
+              memory: 256Mi
+

@@ -1,0 +1,7 @@
+# values.yaml
+rbac:
+  enabled: true
+dashboard:
+  enabled: true
+  domain: traefik.local.minikube.com
+serviceType: NodePort

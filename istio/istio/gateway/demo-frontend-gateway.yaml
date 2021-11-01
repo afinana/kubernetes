@@ -1,0 +1,33 @@
+apiVersion: networking.istio.io/v1alpha3
+kind: Gateway
+metadata:
+  name: demo-frontend-gateway
+spec:
+  selector:
+    istio: ingressgateway # use Istio default gateway implementation
+  servers:
+  - port:
+      number: 8080
+      name: http
+      protocol: HTTP
+    hosts:
+    - "*"
+---
+apiVersion: networking.istio.io/v1alpha3
+kind: VirtualService
+metadata:
+  name: demo-frontend 
+spec:
+  hosts:
+  - "*"
+  gateways:
+  - demo-frontend-gateway
+  http:
+  - match:
+    - uri:
+        prefix: /demo-frontend
+    route:
+    - destination:
+        port:
+          number: 8081
+        host: demo-frontend 
